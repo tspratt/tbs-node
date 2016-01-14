@@ -1,0 +1,18 @@
+{
+  "name": "tbs-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "express": "~4.13.1",
+    "mongodb": "^2.0.39",
+    "body-parser": "~1.13.2"
+  },
+  "devDependencies": {
+    "chai": "3.2.x",
+    "mocha": "1.9.x",
+    "request": "^2.67.0"
+  }
+}
